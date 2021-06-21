@@ -1,13 +1,5 @@
 #!/usr/bin/env bash
-# holberton School 10 times.
-
-COUNTER=0
-while [ $COUNTER -lt 10 ]
-do
-    echo "Holberton School"
-    let COUNTER=COUNTER+1
-    done#!/usr/bin/env bash
-# holberton School 10 times.
+# displays Holberton School 10 times.
 
 for (( c=1; c<=10; c++ ))
 do
