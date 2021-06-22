@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# A script for displaying the directory in ls format witrh only partial name after the first dash
+
+ for i in *
+ do
+  echo "$i" | cut -d '-' -f 2
+  done
+  
