@@ -1,16 +1,16 @@
 #!/usr/bin/ env bash
 # display a clock for 12 hours and 59 minutes
 
- hour=0
- while [ $hour -le 12 ]
+ H=0
+ while [ $H -le 12 ]
  do
-  echo "Hour: $hour"
-  minute=1
-  while [ $minute -le 59 ]
-  do
-   echo "$minute"
-   (( minute++ ))
-   done
-   (( hour++ ))
-   done
-   
+   echo "Hour: $H"
+     M=1
+    while [ $M -le 59 ]
+ do
+   echo $M
+   ((M++))
+ done
+   ((H++))
+ done
+ 
