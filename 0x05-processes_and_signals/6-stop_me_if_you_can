@@ -1,4 +1,3 @@
 #!/usr/bin/env bash
-# This is a bash script to stop a file process
-
+# An easier script to kill a loop
 pkill -f ./4-to_infinity_and_beyond
