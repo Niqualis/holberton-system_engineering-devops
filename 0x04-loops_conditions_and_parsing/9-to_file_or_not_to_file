@@ -7,8 +7,10 @@
      if [ -s $file ]
      then
 	 echo "holbertonschool file is not empty"
-     fi
-     if [ -f $file
+     else
+	 echo "holbertonschool file is empty"
+
+	 if [ -f $file
 	then
 	    echo "holbertonschool is a regular file"
 	fi
