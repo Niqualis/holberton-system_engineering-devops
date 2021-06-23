@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-# writing a command showing my pid
-echo $$
