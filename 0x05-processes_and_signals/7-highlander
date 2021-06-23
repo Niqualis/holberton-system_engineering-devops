@@ -1,0 +1,10 @@
+#!/user/bin/env bash
+# Write a confusing bash script
+
+ while:
+ do
+ echo "to infinity and beyond"
+ sleep 2
+ trap 'echo"I am invincible!!!"'SIGTERM
+ done
+ 
