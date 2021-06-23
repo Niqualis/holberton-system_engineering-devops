@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# There can only be one...
+
+pkill -f "highlander" --signal SIGKILL
